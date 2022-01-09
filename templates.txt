@@ -1,0 +1,41 @@
+<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+
+<script>
+  const firebaseConfig = {
+  apiKey: "AIzaSyBbO-ZKF7MN4GhD3X8na8kI8HoQupsv_b4",
+  authDomain: "eduaio.firebaseapp.com",
+  databaseURL: "https://eduaio-default-rtdb.firebaseio.com",
+  projectId: "eduaio",
+  storageBucket: "eduaio.appspot.com",
+  messagingSenderId: "1083629994627",
+  appId: "1:1083629994627:web:38d3042c34bf3b542391b6",
+  measurementId: "G-68EDFWWN11"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>
+
+function show() {
+
+    // var name = document.getElementById("name").value;
+    // var id= document.getElementById("id").value;
+    var email= document.getElementById("email").value;
+
+	var result = email.split(".", 1);
+     firebase.database().ref('Newsletter/' + result).set({
+            // name : name,
+            // id : id,
+            email : email
+          }, function(error) {
+            if (error) {
+              // The write failed...
+            } else {
+                alert("Submission Done !");
+              
+           
+            }
+          });
+ }
+
+ 
