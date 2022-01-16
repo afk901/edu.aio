@@ -1,4 +1,5 @@
-const form = document.getElementById('comments');
+// Forum Comments
+const form = document.getElementById('forumComments');
 // adding data
 form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -17,7 +18,7 @@ const div = document.querySelector('.cont');
 renderList = (doc) => {
     var main_div = document.createElement('div');
     var card_body = document.createElement('div');
-    var name = document.createElement('h6');
+    var name = document.createElement('h5');
     var comment = document.createElement('p');
     main_div.setAttribute('class','card mt-3');
     card_body.setAttribute('class','card-body');
@@ -31,7 +32,7 @@ renderList = (doc) => {
     div.appendChild(main_div);
 }
 
-db.collection('comments').onSnapshot(snap => {
+db.collection('forumComments').onSnapshot(snap => {
     let changes = snap.docChanges();
     changes.forEach(change => {
         if (change.type == 'added') {

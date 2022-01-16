@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Educenter</title>
+  <title>John Doe - edu.aio</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,8 +27,8 @@
   <link href="css/style.css" rel="stylesheet">
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon-final.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon-final.png" type="image/x-icon">
 
 </head>
 
@@ -42,7 +42,7 @@
 <!-- header -->
 <header class="fixed-top header">
   <!-- top header -->
-  <div class="top-header py-2 bg-white">
+  <!-- <div class="top-header py-2 bg-white">
     <div class="container">
       <div class="row no-gutters">
         <div class="col-lg-4 text-center text-lg-left">
@@ -65,12 +65,12 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- navbar -->
+  </div> -->
+  <!-- navbar start -->
   <div class="navigation w-100">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0">
-        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="index.html"><img src="images/logo-final.png" alt="logo"></a>
         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -78,46 +78,38 @@
 
         <div class="collapse navbar-collapse" id="navigation">
           <ul class="navbar-nav ml-auto text-center">
-            <li class="nav-item @@home">
+            <!-- Home -->
+            <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item @@about">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item @@courses">
-              <a class="nav-link" href="courses.html">COURSES</a>
-            </li>
-            <li class="nav-item @@events">
-              <a class="nav-link" href="events.html">EVENTS</a>
-            </li>
-            <li class="nav-item @@blog">
-              <a class="nav-link" href="blog.html">BLOG</a>
-            </li>
+            <!-- Academic -->
             <li class="nav-item dropdown view">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                Pages
+                Academic
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="teacher.html">Teacher</a>
-                <a class="dropdown-item" href="teacher-single.html">Teacher Single</a>
-                <a class="dropdown-item" href="notice.html">Notice</a>
-                <a class="dropdown-item" href="notice-single.html">Notice Details</a>
-                <a class="dropdown-item" href="research.html">Research</a>
-                <a class="dropdown-item" href="scholarship.html">Scholarship</a>
-                <a class="dropdown-item" href="course-single.html">Course Details</a>
-                <a class="dropdown-item" href="event-single.html">Event Details</a>
-                <a class="dropdown-item" href="blog-single.html">Blog Details</a>
+                <a class="dropdown-item" href="Class-8.html">Class 8</a>
+                <a class="dropdown-item" href="Class-9-10.html">Class 9-10</a>
               </div>
             </li>
-            <li class="nav-item @@contact">
-              <a class="nav-link" href="contact.html">CONTACT</a>
+            <!-- Blog -->
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            
+            <!-- Forum -->
+            <li class="nav-item dropdown view">
+              <a class="nav-link" href="forum.html">
+                Forum
+              </a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
   </div>
+  <!-- navbar end -->
 </header>
 <!-- /header -->
 <!-- Modal -->
@@ -190,10 +182,10 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="teacher.html">Our Teacher</a></li>
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="teacher.html">Our Teachers</a></li>
           <li class="list-inline-item text-white h3 font-secondary nasted">John Doe</li>
         </ul>
-        <p class="text-lighten">Our courses offer a good compromise between the continuous assessment favoured by some universities and the emphasis placed on final exams by others.</p>
+        <p class="text-lighten">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, totam hic praesentium dolores ab ipsum vel, aspernatur, similique animi unde ea sed? Voluptatibus, obcaecati ipsum quaerat mollitia culpa dolorum? Ullam rem, minima eius quo et sequi recusandae unde hic provident!</p>
       </div>
     </div>
   </div>
@@ -247,65 +239,7 @@
           laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-12">
-        <h4 class="mb-4">COURSES</h4>
-      </div>
-      <!-- course item -->
-      <div class="col-lg-4 col-sm-6 mb-5">
-        <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="images/courses/course-4.jpg" alt="course thumb">
-          <div class="card-body">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-              <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
-            </ul>
-            <a href="course-single.html">
-              <h4 class="card-title">Complete Freelancing</h4>
-            </a>
-            <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna.</p>
-            <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
-          </div>
-        </div>
-      </div>
-      <!-- course item -->
-      <div class="col-lg-4 col-sm-6 mb-5">
-        <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="images/courses/course-5.jpg" alt="course thumb">
-          <div class="card-body">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-              <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
-            </ul>
-            <a href="course-single.html">
-              <h4 class="card-title">Branding Design</h4>
-            </a>
-            <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna.</p>
-            <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
-          </div>
-        </div>
-      </div>
-      <!-- course item -->
-      <div class="col-lg-4 col-sm-6 mb-5">
-        <div class="card p-0 border-primary rounded-0 hover-shadow">
-          <img class="card-img-top rounded-0" src="images/courses/course-6.jpg" alt="course thumb">
-          <div class="card-body">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-              <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
-            </ul>
-            <a href="course-single.html">
-              <h4 class="card-title">Art Design</h4>
-            </a>
-            <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna.</p>
-            <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    
   </div>
 </section>
 <!-- /teacher details -->
@@ -318,12 +252,13 @@
       <div class="row">
         <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
           <h3 class="text-white">Subscribe Now</h3>
-          <form action="#">
-            <div class="input-wrapper">
-              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
-              <button type="submit" value="send" class="btn btn-primary">Join</button>
-            </div>
-          </form>
+          <!-- <form action=""> -->
+          <div class="input-wrapper">
+            <input type="" class="form-control border-0" id="email" name="email"
+              placeholder="Enter Your Email...">
+            <button class="btn btn-primary" onclick="show()" type="submit">Join</button>
+          </div>
+          <!-- </form> -->
         </div>
       </div>
     </div>
@@ -332,9 +267,10 @@
   <div class="footer bg-footer section border-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+        <div class="col-lg-6 col-sm-8 mb-5 mb-lg-0">
           <!-- logo -->
-          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo-final.png"
+              alt="logo"></a>
           <ul class="list-unstyled">
             <li class="mb-2">23621 15 Mile Rd #C104, Clinton MI, 48035, New York, USA</li>
             <li class="mb-2">+1 (2) 345 6789</li>
@@ -347,7 +283,7 @@
           <h4 class="text-white mb-5">COMPANY</h4>
           <ul class="list-unstyled">
             <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
-            <li class="mb-3"><a class="text-color" href="teacher.html">Our Teacher</a></li>
+            <li class="mb-3"><a class="text-color" href="teacher.html">Our Teachers</a></li>
             <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
             <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
           </ul>
@@ -356,10 +292,10 @@
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5">LINKS</h4>
           <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
-            <li class="mb-3"><a class="text-color" href="event.html">Events</a></li>
-            <li class="mb-3"><a class="text-color" href="gallary.html">Gallary</a></li>
-            <li class="mb-3"><a class="text-color" href="faqs.html">FAQs</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Courses</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Events</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Gallery</a></li>
+            <li class="mb-3"><a class="text-color" href="#">FAQs</a></li>
           </ul>
         </div>
         <!-- support -->
@@ -373,36 +309,34 @@
           </ul>
         </div>
         <!-- support -->
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5">RECOMMEND</h4>
-          <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="#">WordPress</a></li>
-            <li class="mb-3"><a class="text-color" href="#">LearnPress</a></li>
-            <li class="mb-3"><a class="text-color" href="#">WooCommerce</a></li>
-            <li class="mb-3"><a class="text-color" href="#">bbPress</a></li>
-          </ul>
-        </div>
+
       </div>
     </div>
   </div>
   <!-- copyright -->
   <div class="copyright py-4 bg-footer">
     <div class="container">
+
       <div class="row">
         <div class="col-sm-7 text-sm-left text-center">
           <p class="mb-0">Copyright
             <script>
               var CurrentYear = new Date().getFullYear()
               document.write(CurrentYear)
-            </script> 
-            © themefisher</p>
+            </script>
+            © AFK
+          </p>
         </div>
         <div class="col-sm-5 text-sm-right text-center">
           <ul class="list-inline">
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-facebook text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-twitter-alt text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-linkedin text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i
+                  class="ti-facebook text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i
+                  class="ti-twitter-alt text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i
+                  class="ti-linkedin text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i
+                  class="ti-instagram text-primary"></i></a></li>
           </ul>
         </div>
       </div>
